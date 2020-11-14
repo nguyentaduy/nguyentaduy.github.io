@@ -1,0 +1,51 @@
+.pubtitle {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.inttitle {
+	font-weight: bold;
+	font-size: 14px;
+	padding-bottom: 8px;
+}
+
+
+.pubauthor {
+	font-size: 13px;
+}
+
+.pubcite  {
+	font-size: 12px;
+}
+
+.publication.btn-group{
+	color: #FFFFFF;
+}
+
+.publication.btn{
+	color: #FFFFFF;
+	background-color: #273b81;
+}
+
+.publication.panel-heading{
+	padding-top: 5pt;
+	padding-bottom: 0pt;
+	padding-right: 0pt;
+}
+
+
+.interests.btn-group{
+	color: #FFFFFF;
+}
+
+.interests.btn{
+	color: #FFFFFF;
+	background-color: #273b81;
+}
+
+.interests.panel-heading{
+	padding-top: 5pt;
+	padding-bottom: 0pt;
+	padding-right: 0pt;
+}
+background-color: #a01e32;
