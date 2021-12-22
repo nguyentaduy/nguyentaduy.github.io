@@ -11,16 +11,16 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/mystyle.css">
  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 
 <!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+</script> -->
 
 <!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 <style>
 .w3-sidebar a {font-family: "Roboto", sans-serif}
 body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
@@ -44,15 +44,6 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
     <a href="#publications" class="w3-bar-item w3-button">Publications</a>
         <!-- <a href="#Interests" class="w3-bar-item w3-button">Interests</a> -->
     <a href="#academic" class="w3-bar-item w3-button">Teaching</a>
-    <!--<a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
-      ACADEMIC ACTIVITIES <i class="fa fa-caret-down"></i>
-    </a>
-    <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
-      <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>Teaching</a>
-      <a href="#" class="w3-bar-item w3-button">Talks</a>
-    </div>
-    <a href="#" class="w3-bar-item w3-button">Education</a>
-  -->
 
   </div>
   <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a>
@@ -81,7 +72,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
                   <h2 class="title">About me</h2>
                   <div class="w3-row-padding">
       <div class="w3-col m9 w3-justify">
-       <p>I am a research assistant at the National University of Singapore's School of Computing working under the supervision of Professor Yair Zick and Professor Reza Shokri. I obtained my Master of Science from the National University of Singapore. Before that, I earned my Diplome d'Ingenieur from Ecole Polytechnique and a Bachelor's degree in Computer Science from the National University of Singapore.</p>
+       <p>I am a Ph.D. student in Computer Science at Boston University working under the supervision of <a href="https://cs-people.bu.edu/aene/"> Alina Ene</a>. I obtained my Master of Science from the National University of Singapore. Before that, I earned my Diplome d'Ingenieur from Ecole Polytechnique and a Bachelor's degree in Computer Science from the National University of Singapore.</p>
 
       </div>
       <!-- <div class="w3-col m3 s6 w3-justify">
@@ -111,105 +102,35 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
           </div>
       </div>
       <div class="pagecontents">
-              <div class="section-container">
-          <h3 class="title"> Forthcoming </h3>
-      </div>
-      <div class="panel panel-default publication">
-        <div  class="panel-heading publication" data-toggle="collapse" data-target="#FR">
-             <h4 class="pubtitle">On Adversarial Bias and the Robustness of Fair Machine Learning.</h4>
-              <div class="pubauthor">Hongyan Chang, Ta Duy Nguyen, Sasi Kumar Murakonda, Ehsan Kazemi, Reza Shokri</div>
-              <div class="pubcite">ArXiv preprint</div>
-              <div style="height:33px">
-              <div class="publication btn-group pull-right">
-                  <!-- <a title="Venue" href="https://arxiv.org/abs/2006.08669"  class="publication btn  "><i class="fa fa-institution"></i> </a> -->
-                  <a title="Pdf" href="https://arxiv.org/abs/2006.08669"  class="publication btn "><i class="fa fa-file-pdf-o"></i></a>
-                  <button title="Expand" type="button" class="publication btn "><i class="fa fa-expand"></i></button>
+        <ol reversed>
+          <li >
+              <div class="">
+                <h4 class="pubtitle">Threshold Task Games: Theory, Platform and Experiments</h4>
+                 <div class="pubauthor">Kobi Gal, Ta Duy Nguyen, Quang Nhat Tran, Yair Zick</div>
+                 <div class="pubcite">In Proceedings of the 19th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS 2020).</div>
               </div>
-              </div>
-          </div>
-        <div id="FR" class="panel-body collapse">
-          <h4>Abstract</h4>
-             <p>
-               Optimizing prediction accuracy can come at the expense of fairness. Towards minimizing discrimination against a group, fair machine learning algorithms strive to equalize the behavior of a model across different groups, by imposing a fairness constraint on models. However, we show that giving the same importance to groups of different sizes and distributions, to counteract the effect of bias in training data, can be in conflict with robustness. We analyze data poisoning attacks against group-based fair machine learning, with the focus on equalized odds. An adversary who can control sampling or labeling for a fraction of training data, can reduce the test accuracy significantly beyond what he can achieve on unconstrained models. Adversarial sampling and adversarial labeling attacks can also worsen the model's fairness gap on test data, even though the model satisfies the fairness constraint on training data. We analyze the robustness of fair machine learning through an empirical evaluation of attacks on multiple algorithms and benchmark datasets.
+            </li>
+            <li >
 
-             </p>
-        </div>
-        </div>
+              <div class="">
+                <h4 class="pubtitle">Resource Based Cooperative Games: Optimization, Fairness and Stability</h4>
+                 <div class="pubauthor">Ta Duy Nguyen, Yair Zick</div>
+                 <div class="pubcite">In Proceedings of the 11th International Symposium on Algorithmic Game Theory (SAGT 2018).</div>
 
-        <div class="section-container">
-          <h3 class="title"> 2020  </h3>
-        </div>
-        <div class="panel panel-default publication">
-        <div  class="panel-heading publication" data-toggle="collapse" data-target="#TTG">
-             <h4 class="pubtitle">Threshold Task Games: Theory, Platform and Experiments</h4>
-              <div class="pubauthor">Kobi Gal, Ta Duy Nguyen, Quang Nhat Tran, Yair Zick</div>
-              <div class="pubcite">In Proceedings of the 19th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS 2020).</div>
-              <div style="height:33px">
-              <div class="publication btn-group pull-right">
-                  <!-- <a title="Venue" href="https://aaai.org/Conferences/AAAI-19/"  class="publication btn  "><i class="fa fa-institution"></i> </a> -->
-                  <a title="Pdf" href="http://ifaamas.org/Proceedings/aamas2020/pdfs/p393.pdf"  class="publication btn "><i class="fa fa-file-pdf-o"></i></a>
-                  <button title="Expand" type="button" class="publication btn "><i class="fa fa-expand"></i></button>
               </div>
+              </li>
+              <li>
+
+              <div class="">
+                <h4 class="pubtitle">Fast Genetic Algorithms</h4>
+                 <div class="pubauthor">Benjamin Doerr, Huu Phuoc Le, Regis Makhmara, Ta Duy Nguyen</div>
+                 <div class="pubcite">In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO 2017).</div>
+
               </div>
-        </div>
-        <div id="TTG" class="panel-body collapse">
-          <h4>Abstract</h4>
-             <p>
-               Threshold task games (TTGs) are a class of cooperative games in which participants form coalitions to complete tasks associated with different rewards and thresholds for success. We provide efficient algorithms for computing approximately optimal coalition structures in TTGs. We also present non-trivial bounds on the cost of stability for this class. We put our theoretical results to practice; we design a web-based framework which allows human players to interact in a collaborative task-based model. Our analysis of human play in two different countries shows that players succeed in general to form optimal coalition structures, and converge to approximately stable payoff divisions.
-            </p>
-        </div>
-        </div>
+              </li>
+            </ol>
 
 
-      <div class="section-container">
-          <h3 class="title"> 2018 </h3>
-      </div>
-      <div class="panel panel-default publication">
-        <div  class="panel-heading publication" data-toggle="collapse" data-target="#RB">
-             <h4 class="pubtitle">Resource Based Cooperative Games: Optimization, Fairness and Stability</h4>
-              <div class="pubauthor">Ta Duy Nguyen, Yair Zick</div>
-              <div class="pubcite">In Proceedings of the 11th International Symposium on Algorithmic Game Theory (SAGT 2018).</div>
-              <div style="height:33px">
-              <div class="publication btn-group pull-right">
-                  <!-- <a title="Venue" href="https://aaai.org/Conferences/AAAI-18/"  class="publication btn  "><i class="fa fa-institution"></i> </a> -->
-                  <a title="Pdf" href="https://link.springer.com/chapter/10.1007/978-3-319-99660-8_21"  class="publication btn "><i class="fa fa-file-pdf-o"></i></a>
-                  <button title="Expand" type="button" class="publication btn "><i class="fa fa-expand"></i></button>
-              </div>
-              </div>
-          </div>
-        <div id="RB" class="panel-body collapse">
-          <h4>Abstract</h4>
-             <p>
-               We study the class of resource-based coalitional games. We provide efficient algorithms to compute solution concepts for weighted voting games, threshold task games and r-weighted voting games; in particular, we compute approximately optimal coalition structures, and present non-trivial bounds on the cost of stability for these classes; in particular, we improve upon the bounds given in Bachrach <i>et. al.</i> (2009) for weighted voting games.
-             </p>
-        </div>
-        </div>
-
-      <h3 class="title"> 2017</h3>
-      <div class="panel panel-default publication">
-        <div  class="panel-heading publication" data-toggle="collapse" data-target="#FG">
-             <h4 class="pubtitle">Fast Genetic Algorithms</h4>
-              <div class="pubauthor">Benjamin Doerr, Huu Phuoc Le, Regis Makhmara, Ta Duy Nguyen</div>
-              <div class="pubcite">In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO 2017).</div>
-              <div style="height:33px">
-              <div class="publication btn-group pull-right">
-                  <!-- <a title="Venue" href="https://sis.smu.edu.sg/aamas2016"  class="publication btn  "><i class="fa fa-institution"></i> </a> -->
-                  <a title="Pdf" href="https://arxiv.org/abs/1703.03334"  class="publication btn "><i class="fa fa-file-pdf-o"></i></a>
-                  <button title="Expand" type="button" class="publication btn "><i class="fa fa-expand"></i></button>
-              </div>
-              </div>
-          </div>
-        <div id="FG" class="panel-body collapse">
-          <h4>Abstract</h4>
-             <p>
-               For genetic algorithms using a bit-string representation of length~\(n\), the general recommendation is to take \(1/n\) as mutation rate. In this work, we discuss whether this is really justified for multimodal functions. Taking jump functions and the \((1+1)\) evolutionary algorithm as the simplest example, we observe that larger mutation rates give significantly better runtimes. For the \(Jump_{m,n}\) function, any mutation rate between \(2/n\) and \(m/n\) leads to a speed-up at least exponential in m compared to the standard choice.<br>
-The asymptotically best runtime, obtained from using the mutation rate \(m/n\) and leading to a speed-up super-exponential in m, is very sensitive to small changes of the mutation rate. Any deviation by a small \((1 \pm \epsilon)\) factor leads to a slow-down exponential in \(m\). Consequently, any fixed mutation rate gives strongly sub-optimal results for most jump functions.
-Building on this observation, we propose to use a random mutation rate \(\alpha/n\), where \(\alpha\) is chosen from a power-law distribution. We prove that the \((1+1)\) EA with this heavy-tailed mutation rate optimizes any \(Jump_{m,n}\) function in a time that is only a small polynomial (in \(m\)) factor above the one stemming from the optimal rate for this \(m\).<br>
-Our heavy-tailed mutation operator yields similar speed-ups (over the best known performance guarantees) for the vertex cover problem in bipartite graphs and the matching problem in general graphs.
-Following the example of fast simulated annealing, fast evolution strategies, and fast evolutionary programming, we propose to call genetic algorithms using a heavy-tailed mutation operator <i>fast genetic algorithms</i>.
-             </p>
-        </div>
-        </div>
 
         </div>
   </div>
@@ -226,9 +147,9 @@ Following the example of fast simulated annealing, fast evolution strategies, an
           </div>
       </div>
       <div class="pagecontents">
-         <ul class="list-group">
-           <li class="list-group-item"><b>Teaching Assistant</b> for Algorithmic Mechanism Design (CS4261/5461, Fall 2018), NUS</li>
-         	<li class="list-group-item"><b>Teaching Assistant</b> for Introduction to AI (CS3244, Spring 2018), NUS</a></li>
+         <ul >
+           <li ><b>Teaching Assistant</b> for Algorithmic Mechanism Design (CS4261/5461, Fall 2018), NUS</li>
+         	<li ><b>Teaching Assistant</b> for Introduction to AI (CS3244, Spring 2018), NUS</a></li>
 
         </ul>
 
@@ -243,14 +164,6 @@ Following the example of fast simulated annealing, fast evolution strategies, an
     <div class="w3-row-padding">
       <div class="w3-col s12 w3-justify">
         <h4>Contact</h4>
-        <i class="fa fa-fw fa-map-marker"></i><b>Office</b><br>
-        <p>UT25-01-02<br>
-         Artificial Intelligence Lab3B<br>
-        Stephen Riady Centre<br>
-        2 College Avenue West<br>
-        Singapore 138607.</p>
-        <i class="fa fa-fw fa-envelope"></i><b>E-mail</b><br>
-        <p>n_g_u_y_e_n_t_a_d_u_y AT gmail DOT com (without underscore) </p>
       </div>
     </div>
   </footer>
@@ -260,17 +173,6 @@ Following the example of fast simulated annealing, fast evolution strategies, an
 
 <script>
 // Accordion
-function myAccFunc() {
-    var x = document.getElementById("demoAcc");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else {
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-
-// Click on the "Jeans" link on page load to open the accordion for demo purposes
-document.getElementById("myBtn").click();
 
 
 // Script to open and close sidebar
